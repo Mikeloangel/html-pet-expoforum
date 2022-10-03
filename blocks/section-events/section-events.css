@@ -6,3 +6,11 @@
 
   background-color: var(--cl-primary-yellow);
 }
+
+
+@media screen and (max-width:1280px){
+  .section-events{
+    padding: 35px 0;
+  }
+}
+

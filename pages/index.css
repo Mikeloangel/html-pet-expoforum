@@ -56,10 +56,12 @@
 @import url(../blocks/footer/footer.css);
 
 
-@media screen and (max-width:2056px) {
+@media screen and (max-width:2056px)
+{}
+
+
+* {
+  outline: 1px solid green;
 }
-
-
-*{outline: 1px solid green;}
 
 /* outline: 3px solid green; */

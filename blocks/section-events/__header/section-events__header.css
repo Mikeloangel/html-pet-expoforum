@@ -8,3 +8,21 @@
   justify-content: space-between;
   align-items: baseline;
 }
+
+
+@media screen and (max-width:1280px){
+  .section-events__header{
+    max-width: 100%;
+    padding: 0 60px 55px 60px;
+  }
+}
+
+
+@media screen and (max-width:700px){
+  .section-events__header{
+    padding: 0 60px 20px 60px;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
