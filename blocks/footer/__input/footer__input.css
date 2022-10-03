@@ -1,0 +1,18 @@
+.footer__input {
+  padding: 13px 0 11px 20px;
+  margin: 0;
+  box-sizing: border-box;
+
+  flex-grow: 1;
+
+  border: 0;
+
+  color: var(--cl-primary-dark);
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.footer__input::placeholder {
+  font-size: 12px;
+  color: var(--cl-primary-medium);
+}

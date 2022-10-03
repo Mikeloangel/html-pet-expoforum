@@ -1,0 +1,10 @@
+.footer__ico {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: opacity 300ms ease-in-out;
+}
+
+.footer__ico:hover {
+  opacity: .5;
+}

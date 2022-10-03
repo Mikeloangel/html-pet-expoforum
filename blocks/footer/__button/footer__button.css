@@ -1,0 +1,11 @@
+.footer__button {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+
+  background-color: var(--submit-color, var(--cl-primary-red));
+
+  flex-basis: 40px;
+  align-self: stretch;
+}

@@ -71,14 +71,28 @@
 @import url(../blocks/news/__description-link/news__description-link.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__column/footer__column_wide.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__list/footer__list_horizontal.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__image/footer__image.css);
+@import url(../blocks/footer/__ico/footer__ico.css);
+@import url(../blocks/footer/__block/footer__block.css);
+@import url(../blocks/footer/__block-title/footer__block-title.css);
+@import url(../blocks/footer/__block-paragraph/footer__block-paragraph.css);
+@import url(../blocks/footer/__form/footer__form.css);
+@import url(../blocks/footer/__input/footer__input.css);
+@import url(../blocks/footer/__button/footer__button.css);
+@import url(../blocks/footer/__btn-ico/footer__btn-ico.css);
 
 
 @media screen and (max-width:2056px)
 {}
 
 
-* {
-  outline: 1px solid green;
-}
+/* * {outline: 1px solid green;} */
 
 /* outline: 3px solid green; */
