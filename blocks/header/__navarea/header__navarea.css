@@ -1,0 +1,23 @@
+.header__navarea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 2px solid #fff;
+
+  padding: 17px 180px;
+}
+
+
+@media screen and (max-width:1600px) {
+  .header__navarea {
+    padding: 17px 60px;
+  }
+}
+
+@media screen and (max-width:1280px) {
+  .header__navarea {
+    display: grid;
+  }
+}
+

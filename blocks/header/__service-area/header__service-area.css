@@ -1,0 +1,20 @@
+.header__service-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+@media screen and (max-width:1280px) {
+  .header__service-area{
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+}
+
+/* everything below will be in burger menu */
+@media screen and (max-width:700px) {
+  .header__service-area{
+    display: none;
+  }
+}

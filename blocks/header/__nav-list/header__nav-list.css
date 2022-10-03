@@ -1,0 +1,14 @@
+.header__nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 47px;
+
+  list-style: none;
+}
+
+@media screen and (max-width:1280px) {
+  .header__nav-list{
+    justify-content: flex-start;
+    padding: 0;
+  }
+}

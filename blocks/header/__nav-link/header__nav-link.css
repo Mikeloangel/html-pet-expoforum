@@ -1,0 +1,11 @@
+.header__nav-link {
+  color: white;
+
+  font-size: 16px;
+  line-height: 1.35;
+
+  text-align: center;
+  text-decoration: none;
+
+  filter: var(--filter-shadow);
+}
