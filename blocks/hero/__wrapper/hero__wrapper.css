@@ -1,0 +1,31 @@
+.hero__wrapper {
+  padding: 120px 0 0 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 255px);
+  grid-template-rows: repeat(2, auto);
+}
+
+@media screen and (max-width:1280px) {
+  .hero__wrapper{
+    padding: 0;
+    gap: 15px;
+    justify-content: end;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .hero__wrapper{
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+
+  }
+}
+
+@media screen and (max-width:420px) {
+  .hero__wrapper{
+    grid-template-columns: 1fr;
+  }
+}

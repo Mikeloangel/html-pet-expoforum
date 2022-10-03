@@ -17,12 +17,16 @@
 @import url(../blocks/header/__service-area/header__service-area.css);
 @import url(../blocks/header/__hero/header__hero.css);
 
-
-@import url(../blocks/search-box/search-box.css);
-
 @import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__container/hero__container.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__link/hero__link.css);
+@import url(../blocks/hero/__wrapper/hero__wrapper.css);
 
 @import url(../blocks/text-card/text-card.css);
+@import url(../blocks/text-card/__title/text-card__title.css);
+@import url(../blocks/text-card/__link/text-card__link.css);
 
 @import url(../blocks/main/main.css);
 
@@ -37,8 +41,10 @@
 @import url(../blocks/footer/footer.css);
 
 
+@media screen and (max-width:2056px) {
+}
 
 
-*{outline: 1px solid green;}
+/* *{outline: 1px solid green;} */
 
 /* outline: 3px solid green; */
