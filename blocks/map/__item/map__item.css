@@ -1,0 +1,7 @@
+.map__item {
+  padding-top: 15px;
+}
+
+.map__item:first-child {
+  padding-top: 0;
+}

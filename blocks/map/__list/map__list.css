@@ -1,0 +1,13 @@
+.map__list {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  list-style: none;
+}
+
+@media screen and (max-width:1024px) {
+  .map__list{
+    margin: 0px;
+  }
+}

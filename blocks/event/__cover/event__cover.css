@@ -1,0 +1,13 @@
+.event__cover {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  object-fit: contain;
+
+  transition: var(--transition-shadow);
+}
+
+.event__link:hover .event__cover{
+  box-shadow: var(--transition-property-shadow);
+}

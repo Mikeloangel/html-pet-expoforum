@@ -1,0 +1,10 @@
+.section-events__header {
+  padding: 0 0 55px 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1110px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}

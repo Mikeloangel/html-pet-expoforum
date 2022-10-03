@@ -1,0 +1,8 @@
+.event__date {
+  padding: 10px 0 13px 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.35;
+  color: var(--cl-primary-dark)
+}

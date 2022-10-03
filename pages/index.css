@@ -31,10 +31,25 @@
 @import url(../blocks/main/main.css);
 
 @import url(../blocks/map/map.css);
+@import url(../blocks/map/__container/map__container.css);
+@import url(../blocks/map/__list/map__list.css);
+@import url(../blocks/map/__item/map__item.css);
+@import url(../blocks/map/__title/map__title.css);
+@import url(../blocks/map/__link/map__link.css);
 
 @import url(../blocks/section-events/section-events.css);
+@import url(../blocks/section-events/__header/section-events__header.css);
+@import url(../blocks/section-events/__title/section-events__title.css);
+@import url(../blocks/section-events/__link/section-events__link.css);
+@import url(../blocks/section-events/__wrapper/section-events__wrapper.css);
 
 @import url(../blocks/event/event.css);
+@import url(../blocks/event/__link/event__link.css);
+@import url(../blocks/event/__cover/event__cover.css);
+@import url(../blocks/event/__date/event__date.css);
+@import url(../blocks/event/__title/event__title.css);
+@import url(../blocks/event/__title-link/event__title-link.css);
+@import url(../blocks/event/__description/event__description.css);
 
 @import url(../blocks/news/news.css);
 
@@ -45,6 +60,6 @@
 }
 
 
-/* *{outline: 1px solid green;} */
+*{outline: 1px solid green;}
 
 /* outline: 3px solid green; */

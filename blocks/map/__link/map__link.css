@@ -1,0 +1,15 @@
+.map__link {
+  font-size: 16px;
+  line-height: 1.35;
+
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.map__link:hover {
+  font-size: 16px;
+  line-height: 1.35;
+
+  text-decoration-line: underline;
+  color: var(--cl-primary-yellow);
+}
