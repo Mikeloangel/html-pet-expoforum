@@ -1,0 +1,49 @@
+.text-card {
+  background-color: var(--color, var(--cl-primary-icecream, #555));
+  margin: 0;
+  padding: 30px 40px;
+  box-sizing: border-box;
+
+  transition: var(--transition-shadow);
+}
+
+.text-card:hover {
+  box-shadow: var(--transition-property-shadow);
+}
+
+.text-card__title {
+  padding: 0;
+  margin: 0 0 15px 0;
+  box-sizing: border-box;
+
+  font-family: 'Plumb';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+
+  color: #FFFFFF;
+}
+
+.text-card__link {
+  display: block;
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-size: 14px;
+  line-height: 1.35;
+
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.text-card__link:hover {
+  text-decoration: underline;
+}
+
+.text-card__link:hover .text-card__link-go {
+  animation: var(--animation-shake-element);
+}

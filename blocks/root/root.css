@@ -1,0 +1,31 @@
+
+.root {
+  --bg-fill: rgb(225, 225, 225);
+  --cl-primary-blue: #2378FC;
+  --cl-primary-green: #30BCC9;
+  --cl-primary-icecream: #FAF3E3;
+  --cl-primary-yellow: #FFC41E;
+  --cl-primary-red: #F6404F;
+  --cl-primary-dark:  #2E373B;
+  --cl-primary-medium: #9C9C9C;
+
+  --filter-shadow: drop-shadow(0 5px 2px rgb(127, 127, 127));
+  --animation-shake-element: shake-element 300ms ease-in-out 100ms infinite alternate both running;
+
+  --transition-property-shadow: 0 0 25px rgb(139, 139, 139);
+  --transition-shadow: box-shadow 300ms ease-in-out;
+
+
+  width: 100%;
+  min-height: 100vh;
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  background-color: var(--bg-fill);
+
+  font-family: 'Circle';
+  font-style: normal;
+  font-weight: 400;
+}

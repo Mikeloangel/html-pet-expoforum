@@ -1,0 +1,8 @@
+@keyframes shake-element {
+  from{
+    transform: translateX(-10%);
+  }
+  to{
+    transform: translateX(20%);
+  }
+}

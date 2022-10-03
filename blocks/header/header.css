@@ -1,0 +1,84 @@
+
+.header {
+  max-width: 1920px;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  background-image: url(../../../images/bgc.png);
+  background-size: cover;
+}
+
+.header__navarea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 2px solid #fff;
+
+  padding: 17px 180px;
+}
+
+.header__logo {
+  width: 175px;
+  object-fit: contain;
+  filter: var(--filter-shadow);
+}
+
+.header__nav {
+  margin: 0;
+  padding: 0 0 0 140px;
+  box-sizing: border-box;
+}
+
+.header__nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 47px;
+
+  list-style: none;
+}
+
+.header__nav-link {
+  color: white;
+
+  font-size: 16px;
+  line-height: 1.35;
+
+  text-align: center;
+  text-decoration: none;
+
+  filter: var(--filter-shadow);
+}
+
+.header__service-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+
+.header__lang {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__lang-name {
+  filter: var(--filter-shadow);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.35;
+  text-align: right;
+  color: #fff;
+
+}
+
+.header__hero {
+  width: 100%;
+  margin: 0 auto;
+  padding: 187px 180px 50px 180px;
+  box-sizing: border-box;
+}
