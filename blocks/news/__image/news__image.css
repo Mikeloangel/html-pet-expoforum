@@ -1,0 +1,11 @@
+.news__image {
+  width: 160px;
+  height: auto;
+  object-fit: contain;
+
+  transition: var(--transition-shadow);
+}
+
+.news__image-link:hover .news__image{
+  box-shadow: var(--transition-property-shadow);
+}

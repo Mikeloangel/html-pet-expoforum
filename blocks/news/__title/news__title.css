@@ -1,0 +1,13 @@
+.news__title {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: 'Plumb';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: #2E373B;
+}

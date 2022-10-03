@@ -1,0 +1,9 @@
+.news__arrow {
+  padding: 0 0 0 10px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.news__title-link:hover .news__arrow {
+  animation: var(--animation-shake-element);
+}

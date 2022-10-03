@@ -52,6 +52,23 @@
 @import url(../blocks/event/__description/event__description.css);
 
 @import url(../blocks/news/news.css);
+@import url(../blocks/news/__container/news__container.css);
+@import url(../blocks/news/__ad-list/news__ad-list.css);
+@import url(../blocks/news/__ad-item/news__ad-item.css);
+@import url(../blocks/news/__ad-link/news__ad-link.css);
+@import url(../blocks/news/__ad-image/news__ad-image.css);
+@import url(../blocks/news/__wrapper/news__wrapper.css);
+@import url(../blocks/news/__header/news__header.css);
+@import url(../blocks/news/__title/news__title.css);
+@import url(../blocks/news/__title-link/news__title-link.css);
+@import url(../blocks/news/__arrow/news__arrow.css);
+@import url(../blocks/news/__list/news__list.css);
+@import url(../blocks/news/__item/news__item.css);
+@import url(../blocks/news/__image-link/news__image-link.css);
+@import url(../blocks/news/__image/news__image.css);
+@import url(../blocks/news/__date/news__date.css);
+@import url(../blocks/news/__description/news__description.css);
+@import url(../blocks/news/__description-link/news__description-link.css);
 
 @import url(../blocks/footer/footer.css);
 

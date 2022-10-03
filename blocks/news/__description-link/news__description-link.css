@@ -1,0 +1,8 @@
+.news__description-link {
+  color: var(--cl-primary-dark);
+  text-decoration: none;
+}
+
+.news__description-link:hover {
+  text-decoration: underline;
+}

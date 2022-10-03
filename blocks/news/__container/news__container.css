@@ -1,0 +1,19 @@
+.news__container {
+  padding: 0;
+  margin: auto;
+
+  max-width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  gap: 125px;
+}
+
+
+@media screen and (max-width:1280px){
+  .news__container{
+    max-width: 100%;
+    padding: 0 60px;
+    flex-direction: column-reverse;
+    gap: 60px;
+  }
+}
