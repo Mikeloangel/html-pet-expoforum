@@ -24,6 +24,8 @@
 @import url(../blocks/hero/__link/hero__link.css);
 @import url(../blocks/hero/__wrapper/hero__wrapper.css);
 
+@import url(../blocks/menu/menu.css);
+
 @import url(../blocks/text-card/text-card.css);
 @import url(../blocks/text-card/__title/text-card__title.css);
 @import url(../blocks/text-card/__link/text-card__link.css);
