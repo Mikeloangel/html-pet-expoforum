@@ -6,7 +6,6 @@
   --menu-backdrop-opacity: 1;
   --menu-item-link-color: #fff;
   --menu-item-text-color: #fff;
-
 }
 
 .menu__burger {
@@ -144,15 +143,8 @@
   top: 35px;
   right: 35px;
   cursor: pointer;
-
-  transform: rotate(0);
-
-  transition: all 2s ease-in-out;
 }
 
-.menu__close:hover {
-  transform: rotate(360deg);
-}
 
 .menu__close::after {
   content: '';
