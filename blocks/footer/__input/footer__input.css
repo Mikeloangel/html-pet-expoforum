@@ -6,6 +6,7 @@
   flex-grow: 1;
 
   border: 0;
+  border-radius: 0;
 
   color: var(--cl-primary-dark);
   font-size: 14px;

@@ -8,4 +8,6 @@
 
   flex-basis: 40px;
   align-self: stretch;
+
+  aspect-ratio: 1;
 }
