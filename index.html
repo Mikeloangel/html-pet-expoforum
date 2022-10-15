@@ -7,11 +7,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/index.css">
+  <style>
+    /* disables animatio before dom loaded */
+    .preloader {
+      transition: none !important;
+      -webkit-transition: none !important;
+      -moz-transition: none !important;
+      -ms-transition: none !important;
+      -o-transition: none !important;
+    }
+  </style>
+  <script>
+    // disables transition effects to trigger before load
+    const handlePreloader = () => document.querySelector('.preloader').classList.remove('preloader');
+    document.addEventListener('DOMContentLoaded', handlePreloader);
+  </script>
   <script src="./pages/index.js" type="module"></script>
   <title>Expoforum</title>
 </head>
 
-<body class="root">
+<body class="root preloader">
 
   <header class="header">
     <div class="header__navarea">
@@ -29,12 +44,12 @@
       </nav>
       <div class="header__service-area">
 
-        <div class="search-box">
+        <form class="search-box" id="searchbox">
           <input type="text" class="search-box__input">
           <button name="search-box-button" class="search-box__button">
             <img src="./images/Search.png" alt="Search" class="search-box__image">
           </button>
-        </div>
+        </form>
 
         <div class="lang">
           <img src="./images/Globe.png" class="lang__img" alt="Search">

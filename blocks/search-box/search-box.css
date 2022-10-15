@@ -9,11 +9,6 @@
   gap: 10px;
 }
 
-.search-box:has(:focus) .search-box__input{
-  visibility: visible;
-  opacity: 1;
-  transform: scaleX(1);
-}
 
 .search-box__input {
   padding: 7px 0 0 7px;
@@ -36,6 +31,13 @@
   transform-origin: top right;
 
   transition: visibility 300ms ease-in-out, opacity 300ms ease-in-out, transform 300ms ease-in-out;
+}
+
+
+.search-box__input_visible {
+  visibility: visible;
+  opacity: 1;
+  transform: scaleX(1);
 }
 
 .search-box__button {
