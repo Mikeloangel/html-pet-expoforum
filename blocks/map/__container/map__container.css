@@ -28,3 +28,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media screen and (max-width:420px) {
+  .map__container{
+    padding: 0 30px;
+  }
+}

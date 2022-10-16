@@ -28,3 +28,10 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+@media screen and (max-width:420px) {
+  .section-events__wrapper{
+    padding: 0 30px;
+  }
+}

@@ -17,3 +17,10 @@
     gap: 60px;
   }
 }
+
+
+@media screen and (max-width:420px) {
+  .news__container{
+    padding: 0 30px;
+  }
+}

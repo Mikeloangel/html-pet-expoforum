@@ -21,3 +21,10 @@
   }
 }
 
+@media screen and (max-width: 420px){
+  .header__navarea{
+    padding: 17px 20px;
+  }
+
+}
+
